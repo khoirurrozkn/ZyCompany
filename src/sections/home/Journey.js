@@ -1,8 +1,4 @@
 import React from 'react'
-import logo3 from '../../img/foto-home-3.jpg'
-import logo4 from '../../img/foto-home-4.jpg'
-import logo5 from '../../img/foto-home-5.jpg'
-import logo6 from '../../img/foto-home-6.jpg'
 import ButtonHome from '../../utils/ButtonHome';
 import ShowFilmHome from '../../utils/ShowFilmHome';
 
@@ -22,25 +18,25 @@ const Journey = () => {
         </h1>
 
         <ShowFilmHome 
-            logo={logo3}
+            logo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316342/foto-home-3_r9qhsk.jpg'
             title={"Whispers of the Heart"}
             genre={"Romance, Comedy"}
             year={"2023"}
         />
         <ShowFilmHome 
-            logo={logo4}
+            logo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316343/foto-home-4_seobza.jpg'
             title={"Love in Bloom"}
             genre={"Romance, Action"}
             year={"2023"}
         />
         <ShowFilmHome 
-            logo={logo5}
+            logo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316344/foto-home-5_g91ffq.jpg'
             title={"The Pocong"}
             genre={"Horror, Thriller"}
             year={"2023"}
         />
         <ShowFilmHome 
-            logo={logo6}
+            logo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316344/foto-home-6_vry8xw.jpg'
             title={"The Last Human"}
             genre={"Action, Thriller"}
             year={"2024"}

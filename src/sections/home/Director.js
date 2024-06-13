@@ -1,8 +1,5 @@
 import React from 'react'
 import DirectorCardHome from '../../utils/DirectorCardHome';
-import logo7 from '../../img/foto-home-7.jpg'
-import logo8 from '../../img/foto-home-8.jpg'
-import logo9 from '../../img/foto-home-9.jpg'
 
 const Director = () => {
   return (
@@ -13,19 +10,19 @@ const Director = () => {
         </p>
 
         <DirectorCardHome
-            photo={logo7}
+            photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316345/foto-home-7_a2zojk.jpg'
             withIg={true}
             name={"Steven Spielberg"}
             quot={"Collaborating with Zy.company was incredible. Their dedication to innovation and support for creative visions make them a remarkable partner."}
         /> 
         <DirectorCardHome
-            photo={logo8}
+            photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316350/foto-home-8_fjqv0s.jpg'
             withIg={true}
             name={"Christopher Nolan"}
             quot={"Working with Zy.company has been a journey of creative exploration. Their commitment to advancing film technology and storytelling is truly inspiring."}
         /> 
         <DirectorCardHome
-            photo={logo9}
+            photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316351/foto-home-9_pebxmi.jpg'
             withIg={true}
             name={"Kathryn Bigelow"}
             quot={"Zy.company's professional and visionary approach blends technology with artistry, elevating every project we've worked on together."}

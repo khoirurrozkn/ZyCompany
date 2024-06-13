@@ -13,15 +13,15 @@ const About = () => {
 
       <Hero />
       <Marquee className='mt-[6rem] bg-[#101013] text-white/80 py-3'>
-        <p>{ "Vision & Mission - ".repeat(10) }</p></Marquee>
+        <p>{ "Vision & Mission - ".repeat(9) }</p></Marquee>
 
       <VisionMission />
       <Marquee className='mb-[4rem] bg-[#101013] text-white/80 py-3'>
-        <p>{ "Executif leadership - ".repeat(9) }</p></Marquee>
+        <p>{ "Executif leadership - ".repeat(8) }</p></Marquee>
 
       <Executive />
       <Marquee className='mt-[6rem] bg-[#101013] text-white/80 py-3'>
-        <p>{ "Get in Touch - ".repeat(13) }</p></Marquee>
+        <p>{ "Get in Touch - ".repeat(12) }</p></Marquee>
 
       <Footer/>
     </div>

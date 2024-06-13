@@ -1,22 +1,12 @@
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Footer = () => {
-    const [name, setName] = useState("")
-    const [organization, setOrganization] = useState("")
-    const [email, setEmail] = useState("")
-    const [phone, setPhone] = useState("")
-    const [message, setMessage] = useState("")
-
+    const navigate = useNavigate()
     const HandleSubmit = (e) => {
-        e.preventDefault();
-        setName('')
-        setOrganization('')
-        setEmail('')
-        setPhone('')
-        setMessage('')
+        navigate("/detail")
     };
       
     const inputTailwind = "appearance-none border-b border-white/40 py-2 px-3 bg-transparent text-white leading-tight focus:outline-none focus:shadow-outline"
@@ -35,8 +25,6 @@ const Footer = () => {
                             type="text"
                             placeholder="Name (required)"
                             required
-                            value={name}
-                            onChange={e => setName(e.target.value)}
                         />
                         <input
                             className={`w-[46%] mb-[2rem] ${inputTailwind}`}
@@ -44,8 +32,6 @@ const Footer = () => {
                             type="text"
                             placeholder="Organization"
                             required
-                            value={organization}
-                            onChange={e => setOrganization(e.target.value)}
                         />
                         <input
                             className={`w-[46%] ${inputTailwind}`}
@@ -53,8 +39,6 @@ const Footer = () => {
                             type="email"
                             placeholder="Email (required)"
                             required
-                            value={email}
-                            onChange={e => setEmail(e.target.value)}
                         />
                         <input
                             className={`w-[46%] ${inputTailwind}`}
@@ -62,16 +46,12 @@ const Footer = () => {
                             type="text"
                             placeholder="Phone number"
                             required
-                            value={phone}
-                            onChange={e => setPhone(e.target.value)}
                         />
                         <textarea
                             className={`w-full h-[80px] mt-[3rem] resize-none ${inputTailwind}`}
                             id="message"
                             name="message"
                             placeholder="Enter your message"
-                            value={message}
-                            onChange={e => setMessage(e.target.value)}
                         />
                         <button
                             className='bg-sky-500 mx-auto mt-[3rem] text-white transition-all duration-200 transform hover:scale-110 py-3 px-8 rounded-[30px] font-[500] focus:outline-none focus:shadow-outline'

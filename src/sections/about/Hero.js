@@ -1,10 +1,4 @@
 import React from 'react'
-import history1 from '../../img/foto-about-history-1.jpg'
-import history2 from '../../img/foto-about-history-2.jpg'
-import history4 from '../../img/foto-about-history-4.jpg'
-import history5 from '../../img/foto-about-history-5.jpg'
-import history6 from '../../img/foto-about-history-6.jpg'
-import history7 from '../../img/foto-about-history-7.jpg'
 
 const Hero = () => {
   return (
@@ -27,12 +21,12 @@ const Hero = () => {
             <span className='text-black/70'>Earn $400,000++</span>
             </p>
         </div>
-        <img alt='unsplash' src={history2} className="bg-black brightness-90 object-cover object-top w-[32%] h-[17rem]"></img>
-        <img alt='unsplash' src={history1} className="bg-black brightness-90 object-cover w-[32%] h-[17rem]"></img>
+        <img alt='unsplash' src='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316334/foto-about-history-2_jijtwd.jpg' className="bg-black brightness-90 object-cover object-top w-[32%] h-[17rem]"></img>
+        <img alt='unsplash' src='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316334/foto-about-history-1_chuvyw.jpg' className="bg-black brightness-90 object-cover w-[32%] h-[17rem]"></img>
         </div>
 
         <div className="flex justify-around mt-[1rem]">
-        <img alt='unsplash' src={history5} className="bg-black brightness-90 object-cover w-[32%] h-[17rem]"></img>
+        <img alt='unsplash' src='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316335/foto-about-history-5_cewugh.jpg' className="bg-black brightness-90 object-cover w-[32%] h-[17rem]"></img>
         <div className="w-[32%] h-[17rem] flex justify-center items-center">
             <p>
             <span className='font-[600]'>Expand - </span>January 2018
@@ -43,12 +37,12 @@ const Hero = () => {
             <span className='text-black/70'>110 Employee</span>
             </p>
         </div>
-        <img alt='unsplash' src={history4} className="bg-black brightness-[80%] object-cover w-[32%] h-[17rem]"></img>
+        <img alt='unsplash' src='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316335/foto-about-history-4_susqwx.jpg' className="bg-black brightness-[80%] object-cover w-[32%] h-[17rem]"></img>
         </div>
 
         <div className="flex justify-around mt-[1rem]"> 
-        <img alt='unsplash' src={history6} className="bg-black brightness-90 object-cover w-[32%] h-[17rem]"></img>
-        <img alt='unsplash' src={history7} className="bg-black brightness-90 object-cover w-[32%] h-[17rem]"></img>
+        <img alt='unsplash' src='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316337/foto-about-history-6_jay3h7.jpg' className="bg-black brightness-90 object-cover w-[32%] h-[17rem]"></img>
+        <img alt='unsplash' src='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316336/foto-about-history-7_gbkf3c.jpg' className="bg-black brightness-90 object-cover w-[32%] h-[17rem]"></img>
         <div className="w-[32%] h-[17rem] px-[1rem] flex justify-center items-center">
             <p>
             <span className='font-[600]'>Team Goals - </span>January 2023

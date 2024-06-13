@@ -1,11 +1,10 @@
 import React from 'react'
-import logo2 from '../../img/foto-home-2.jpg'
 import ButtonHome from '../../utils/ButtonHome';
 
 const Overview = () => {
   return (
     <div className='container mx-auto flex flex-wrap justify-evenly items-center'>
-        <img src={logo2} 
+        <img src='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316343/foto-home-2_xj8hai.jpg'
             alt='By Jakob Owens unsplash'
             className='w-[50%] h-[70vh] object-cover mt-[2rem] brightness-[80%] border'
             style={{ objectPosition: 'bottom' }}>

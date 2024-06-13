@@ -1,10 +1,4 @@
 import React from 'react'
-import foto1 from '../../img/foto-about-1.jpg'
-import foto2 from '../../img/foto-about-2.jpg'
-import foto3 from '../../img/foto-about-3.jpg'
-import foto4 from '../../img/foto-about-4.jpg'
-import foto5 from '../../img/foto-about-5.jpg'
-import foto6 from '../../img/foto-about-6.jpg'
 import DirectorCardHome from '../../utils/DirectorCardHome'
 
 const Executive = () => {
@@ -24,37 +18,37 @@ const Executive = () => {
         <div className='flex flex-wrap justify-evenly mt-[3.5rem]'>
         <DirectorCardHome
             additional="object-top"
-            photo={foto1}
+            photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316326/foto-about-1_rww8vw.jpg'
             name="Alexander Muller"
             quot="Chief Executive Officer"
         /> 
         <DirectorCardHome
             additional="object-top"
-            photo={foto2}
+            photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316327/foto-about-2_xkbipd.jpg'
             name="Henrik Olsen"
             quot="Chief Commercial Officer"
         />
         <DirectorCardHome
             additional="object-top"
-            photo={foto3}
+            photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316326/foto-about-3_tgy2i2.jpg'
             name="Lucas Schmidt"
             quot="Chief Financial Officer"
         />
         <DirectorCardHome
             additional="object-top mt-[3rem]"
-            photo={foto4}
+            photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316326/foto-about-4_hepsxd.jpg'
             name="Jan Novak"
             quot="Chief Operating Officer"
         />
         <DirectorCardHome
             additional="object-top mt-[3rem]"
-            photo={foto5}
+            photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316327/foto-about-5_gum5lg.jpg'
             name="Viktor Petrov"
             quot="Chief Technology Officer"
         />
         <DirectorCardHome
             additional="object-top mt-[3rem]"
-            photo={foto6}
+            photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316327/foto-about-6_e4pqz7.jpg'
             name="Sophie Dupont"
             quot="Chief Marketing Officer"
         />
