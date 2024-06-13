@@ -11,7 +11,7 @@ import Director from '../sections/home/Director';
 
 const Home = () => {
   return (
-    <div className="mt-[13rem] bg-gradient-to-b from-white to-gray-200 bg-opacity-50">
+    <div className="mt-[13rem] bg-gradient-to-b from-white to-gray-300 bg-opacity-50">
         <Navbar/>
 
         <Hero />

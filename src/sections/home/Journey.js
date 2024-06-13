@@ -1,5 +1,8 @@
 import React from 'react'
-import {  logo3, logo4, logo5, logo6 } from '../..';
+import logo3 from '../../img/foto-home-3.jpg'
+import logo4 from '../../img/foto-home-4.jpg'
+import logo5 from '../../img/foto-home-5.jpg'
+import logo6 from '../../img/foto-home-6.jpg'
 import ButtonHome from '../../utils/ButtonHome';
 import ShowFilmHome from '../../utils/ShowFilmHome';
 

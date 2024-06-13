@@ -1,7 +1,13 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import { logo1, logoDisneg, logoTranzTV, logoAntimo, logoDetig, logoRcto, logoKompus} from '../..';
+import logo1 from '../../img/foto-home-1.jpg'
+import logoDisneg from '../../img/logo-disnep.png'
+import logoTranzTV from '../../img/logo-tranztv.png'
+import logoAntimo from '../../img/logo-antimo.png'
+import logoDetig from '../../img/logo-detig.png'
+import logoRcto from '../../img/logo-rcto.png'
+import logoKompus from '../../img/logo-kompus.png'
 
 const Hero = () => {
   return (
@@ -31,12 +37,12 @@ const Hero = () => {
         <div className='container mx-auto flex justify-between items-center py-[30px]'>
             <div className='font-bold'>Media Coverage <FontAwesomeIcon icon={faArrowRight}/></div> 
             <div className='flex w-[70%] text-lg text-white justify-around'>
-                <img src={logoDisneg} alt='disneg' className='ratio-1-1 w-[50px]'></img>
-                <img src={logoTranzTV} alt='tranztv' className='ratio-1-1 w-[50px]'></img>
-                <img src={logoAntimo} alt='antimo' className='ratio-1-1 w-[50px]'></img>
-                <img src={logoDetig} alt='detig' className='ratio-1-1 w-[50px]'></img>
-                <img src={logoRcto} alt='rcto' className='ratio-1-1 w-[50px]'></img>
-                <img src={logoKompus} alt='kompus' className='ratio-1-1 w-[50px]'></img>
+                <img src={logoDisneg} alt='disneg' className='aspect-square w-[50px]'></img>
+                <img src={logoTranzTV} alt='tranztv' className='aspect-square w-[50px]'></img>
+                <img src={logoAntimo} alt='antimo' className='aspect-square w-[50px]'></img>
+                <img src={logoDetig} alt='detig' className='aspect-square w-[50px]'></img>
+                <img src={logoRcto} alt='rcto' className='aspect-square w-[50px]'></img>
+                <img src={logoKompus} alt='kompus' className='aspect-square w-[50px]'></img>
             </div>
         </div>
     </div>

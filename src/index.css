@@ -17,12 +17,14 @@
   width: 0;
 } 
 
-.ratio-1-1{
-  aspect-ratio: 1/1;
-}
-
 .bg-choice{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../src/img/foto-home-1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-vision-mission{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../src/img/foto-about-7.jpg');
   background-position: center;
   background-size: cover;
 }

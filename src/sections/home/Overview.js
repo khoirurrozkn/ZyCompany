@@ -1,5 +1,5 @@
 import React from 'react'
-import { logo2 } from '../..';
+import logo2 from '../../img/foto-home-2.jpg'
 import ButtonHome from '../../utils/ButtonHome';
 
 const Overview = () => {
