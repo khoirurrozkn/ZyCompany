@@ -23,14 +23,14 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const location = useLocation();
-  const [background, setBackground] = useState( location.pathname != '/news' ? 'bg-[#101013]' : 'bg-transparent')
+  const [background, setBackground] = useState( location.pathname !== '/news' ? 'bg-[#101013]' : 'bg-transparent')
 
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
       const isScrollingUp = prevScrollPos > currentScrollPos;
 
-      if (location.pathname == '/films' && currentScrollPos <= 500) {  
+      if (location.pathname === '/films' && currentScrollPos <= 500) {  
         setBackground('bg-transparent')
       }else{
         setBackground('bg-[#101013]')
