@@ -42,12 +42,12 @@ const FAQItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border-b border-black/80 py-[1.7rem] px-3 w-[70%]">
+    <div className="border-b border-black/80 py-[1rem] md:py-[1.7rem] lg:px-3 md:w-[80%] lg:w-[70%]">
       <button 
-        className="flex justify-between items-center w-full focus:outline-none"
+        className="flex justify-between items-center text-start w-full focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <span className="text-lg font-medium">{question}</span>
+        <span className="lg:text-lg font-medium">{question}</span>
         <svg className={`w-5 h-5 transition-transform transform ${isOpen ? 'rotate-180' : 'rotate-0'}`} viewBox="0 0 20 20" fill="currentColor">
           <path fillRule="evenodd" d="M10 3a1 1 0 01.832.445l5 7a1 1 0 01-.832 1.555H4.998a1 1 0 01-.832-1.555l5-7A1 1 0 0110 3z" clipRule="evenodd" />
         </svg>
@@ -61,14 +61,17 @@ const FAQItem = ({ question, answer }) => {
 
 const Faq = () => {
   return (
-    <div className="mt-[13rem] bg-gradient-to-b from-white to-gray-300 bg-opacity-50">
+    <div className="mt-[7rem] lg:mt-[13rem] md:mt-[10rem] bg-gradient-to-b from-white to-gray-300 bg-opacity-50">
         <Navbar/>
 
-        <div className='container flex flex-wrap justify-center mx-auto text-center'>
-          <p className='text-[2.5rem] font-bold w-[100%]'>Frequently Asked Questions <span className='underline font-bold underline-offset-4 decoration-indigo-500'>(FAQs)</span></p>
-          <p className='text-[1.1rem] text-black/80 mb-[3rem]'>
+        <div className='container flex flex-wrap justify-center mx-auto md:text-center'>
+          <p className='text-[2rem] md:text-[2.5rem] lg:text-[3.5rem] font-bold w-[100%]'>
+            Frequently 
+            <span className='underline font-bold underline-offset-4 decoration-indigo-500'> Asked </span>
+            Questions
+          </p>
+          <p className='md:text-[1.1rem] me-[1rem] md:mx-[20%] lg:mx-[30%] text-black/80 mb-[2rem] lg:mb-[3rem]'>
             Guide to Understanding the Services and Information
-            <br></br> 
             from Zy.Company
           </p>
           {faqs.map((faq, index) => (

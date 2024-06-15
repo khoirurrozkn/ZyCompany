@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className='container mx-auto'>
 
-        <h1 className='text-[2rem] md:text-[2.5rem] lg:text-[3.5rem] w-[100%] font-[600] tracking-tight leading-[130%] mb-[2rem] md:mb-[3rem] lg:mb-[5rem]'>
+        <h1 className='text-[2rem] md:text-[2.5rem] lg:text-[3.5rem] font-[600] tracking-tight leading-[130%] mb-[2rem] md:mb-[3rem] lg:mb-[5rem]'>
         <span className='underline font-[600] underline-offset-4 decoration-indigo-500'>History</span> is the Compass to Our
         <br></br> 
         <span className='underline font-[600] underline-offset-4 decoration-sky-500'>Collective Journey</span>

@@ -138,7 +138,7 @@ const Navbar = () => {
               <NavbarLink additional={subNavClass} to="/films/#latest-films">Latest films</NavbarLink>
             </DisplayNav>
 
-            <div className='w-full ms-[2rem] lg:w-auto lg:ms-0'>
+            <div className='w-full ms-[2rem] md:w-auto md:ms-0'>
               <NavbarLink additional='block text-[1.2rem]' to="/faqs">FAQs</NavbarLink> 
             </div>
 
