@@ -18,13 +18,13 @@
 } 
 
 .bg-choice{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316342/foto-home-1_obwu2r.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316342/foto-home-1_obwu2r.jpg');
   background-position: center;
   background-size: cover;
 }
 
 .bg-vision-mission{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316328/foto-about-7_dkkl2u.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316328/foto-about-7_dkkl2u.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -32,4 +32,58 @@
 .bg-news{
   background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 3)), url('https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316334/foto-about-history-2_jijtwd.jpg');
   background-size: cover;
+}
+
+.arrow-down {
+  transform: rotate(10deg);
+  animation: slide-down 0.5s infinite alternate;
+  cursor: pointer;
+}
+
+@keyframes slide-down {
+  to {
+      transform: translateY(5px);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  /* .container{
+    margin: 0 1rem !important;
+  } */
+}
+
+@media only screen and (max-width: 767px){
+  .container{
+    padding: 0 1rem !important;
+  }
+
+  .desc-button::before,
+  .desc-button::after {
+      content: "";
+      display: block;
+      width: 33%;
+      border-bottom: solid 1px gray;
+      position: absolute;
+      top: 50%;
+  }
+  
+  .desc-button::before {
+      left: 4%;
+  }
+  
+  .desc-button::after {
+      right: 4%;
+  }
+
+  .arrow-coverage {
+    transform: rotate(15deg);
+    animation: around 1s infinite alternate;
+  }
+
+  @keyframes around {
+    to {
+      transform: rotate(150deg);
+    }
+  }
+  
 }

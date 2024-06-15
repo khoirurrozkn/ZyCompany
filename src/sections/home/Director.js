@@ -4,9 +4,9 @@ import DirectorCardHome from '../../utils/DirectorCardHome';
 const Director = () => {
   return (
     <div className='container mx-auto flex flex-wrap justify-evenly'>
-        <p className='text-[3rem] mb-[5rem] text-center w-full font-[500] tracking-tight leading-[130%]'>
-            <span className='underline font-[500] underline-offset-4 decoration-indigo-500'>Famous Director</span>  Quotes <br></br> 
-            Who <span className='underline font-[500] underline-offset-4 decoration-[#AC844E]'>Have Collaborated with Us</span>
+        <p className='text-[2.2rem] md:text-[2.5rem] lg:text-[3rem] mb-[3rem] lg:mb-[5rem] lg:text-center w-full font-[600] tracking-tight leading-[130%]'>
+            <span className='underline font-[600] underline-offset-4 decoration-indigo-500'>Famous Director</span>  Quotes
+            Who <span className='underline font-[600] underline-offset-4 decoration-[#AC844E]'>Have Collaborated with Us</span>
         </p>
 
         <DirectorCardHome

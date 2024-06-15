@@ -5,43 +5,43 @@ import { Link, useNavigate } from 'react-router-dom'
 
 const Footer = () => {
     const navigate = useNavigate()
-    const HandleSubmit = (e) => {
+    const HandleSubmit = () => {
         navigate("/detail")
     };
       
     const inputTailwind = "appearance-none border-b border-white/40 py-2 px-3 bg-transparent text-white leading-tight focus:outline-none focus:shadow-outline"
     return (
-        <div className='w-screen absolute pt-[4rem] text-white left-0 bg-[#101013]'>
-            <div className='container mx-auto flex flex-wrap justify-between items-center'>
-                <div className='w-[50%]'>
-                    <p className='text-[3.5rem] font-[500] tracking-tight leading-[130%]'>
+        <div className='bg-[#101013] pt-[3rem] lg:pt-[5rem]'>
+            <div className='flex container mx-auto flex-wrap text-white justify-between items-center'>
+                <div className='w-full lg:w-[50%] md:w-[40%]'>
+                    <p className='text-[2.4rem] lg:text-[3.5rem] font-[500] tracking-tight leading-[130%]'>
                         Get in Touch
                         <br></br> <span className='underline font-[500] underline-offset-4 decoration-sky-500'>With Us</span>
                     </p>
                     <form onSubmit={HandleSubmit} className="flex flex-wrap items-center justify-between mt-[2rem]">
                         <input
-                            className={`w-[46%] mb-[2rem] ${inputTailwind}`}
+                            className={`w-full lg:w-[46%] mb-[2rem] ${inputTailwind}`}
                             name="name"
                             type="text"
                             placeholder="Name (required)"
                             required
                         />
                         <input
-                            className={`w-[46%] mb-[2rem] ${inputTailwind}`}
+                            className={`w-full lg:w-[46%] mb-[2rem] ${inputTailwind}`}
                             name="organization"
                             type="text"
                             placeholder="Organization"
                             required
                         />
                         <input
-                            className={`w-[46%] ${inputTailwind}`}
+                            className={`w-full lg:w-[46%] mb-[2rem] ${inputTailwind}`}
                             name="email"
                             type="email"
                             placeholder="Email (required)"
                             required
                         />
                         <input
-                            className={`w-[46%] ${inputTailwind}`}
+                            className={`w-full lg:w-[46%] ${inputTailwind}`}
                             name="phone"
                             type="text"
                             placeholder="Phone number"
@@ -63,30 +63,27 @@ const Footer = () => {
                 </div>     
                 <iframe
                     title='maps'
-                    className='w-[35%] aspect-square rounded-lg' 
+                    className='w-full lg:w-[35%] md:w-[45%] aspect-square rounded-lg mt-[3rem]' 
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1231.6259872697335!2d112.76249876387725!3d-7.317011672929943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1718268231348!5m2!1sen!2sid"
                     allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade">
                 </iframe>
 
-                <div className='w-[28%] mt-[4rem]'>
+                <div className='w-full order-4 lg:w-[28%]  md:w-[35%] mt-[4rem]'>
                     <Link to="/" className="flex justify-between transition-all transform hover:scale-110 border-b block p-2 border-white/40">
                         Home <FontAwesomeIcon icon={faArrowRight} />
                     </Link>
                     <Link to="/about" className='flex justify-between transition-all transform hover:scale-110 border-b block mt-[1rem] p-2 border-white/40'>
                         About <FontAwesomeIcon icon={faArrowRight}/>
                     </Link>
-                    <Link to="/news" className='flex justify-between transition-all transform hover:scale-110 border-b block mt-[1rem] p-2 border-white/40'>
-                        News <FontAwesomeIcon icon={faArrowRight}/>
+                    <Link to="/films" className='flex justify-between transition-all transform hover:scale-110 border-b block mt-[1rem] p-2 border-white/40'>
+                        Latest Films <FontAwesomeIcon icon={faArrowRight}/>
                     </Link>
                     <Link to="/faqs" className='flex justify-between transition-all transform hover:scale-110 border-b block mt-[1rem] p-2 border-white/40'>
                         FAQs <FontAwesomeIcon icon={faArrowRight}/>
                     </Link>
-                    <Link to="/career" className='flex justify-between transition-all transform hover:scale-110 border-b block mt-[1rem] p-2 border-white/40'>
-                        Career <FontAwesomeIcon icon={faArrowRight}/>
-                    </Link>
                 </div>
 
-                <div className='w-[35%]'>
+                <div className='w-full lg:w-[35%] md:w-[35%] mt-[3rem] lg:mt-[0]'>
                     <div className='text-[19px]'>
                         Zy.Company Headquarters
                         <br></br>
