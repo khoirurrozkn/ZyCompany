@@ -13,18 +13,15 @@ const Choice = () => {
                 for <span className='underline font-[500] underline-offset-4 decoration-[#AC844E]'>Film Production</span> 
             </h1>
             <CardHome 
-                title={"Collaboration with Top Talent"}
-                colorDrop='#AC844E'
+                title={"1. Collaboration with Top Talent"}
                 desc={"boasts a network of top film industry talents, including directors, screenwriters, and production designers, ensuring each project is handled by experienced professionals."}
             />
             <CardHome 
-                title={"Integrated Production Solutions"}
-                colorDrop='#AC844E'
+                title={"2. Integrated Production Solutions"}
                 desc={"From conception to distribution, zy.company offers comprehensive solutions including pre-production planning, filming, editing, and promotion, all tailored to each project's unique needs."}
             />
             <CardHome 
-                title={"Extensive Experience"}
-                colorDrop='#AC844E'
+                title={"3. Extensive Experience"}
                 desc={"With over 10 years in the industry, zy.company is a leader in film production, ensuring each project receives thorough attention and high professionalism from start to finish."}
             />
         </div>

@@ -2,14 +2,14 @@ import React from 'react'
 
 const ShowFilmHome = ({logo, title, genre, year, additional}) => {
     return (
-        <div className={`lg:w-[43.2%] md:w-[32%] my-[1rem] lg:mb-[2rem] ${additional}`}>
+        <div className={`w-[47%] lg:w-[43.2%] md:w-[45%] my-[1rem] lg:mt-[2rem] ${additional}`}>
             <img src={logo}
                 alt='By Jakob Owens unsplash'
-                className='w-[100%] aspect-square object-cover mt-[2rem] brightness-[80%]'
+                className='shadow-lg aspect-square object-cover brightness-[80%]'
                 style={{ objectPosition: 'bottom' }}>
             </img>
-            <p className='text-[1.5rem] font-[500] lg:text-[2.2rem] my-[1rem]'>{title}</p>
-            <div className='flex border-t border-black/25 pt-4'>
+            <p className='font-[500] text-[1.1rem] md:text-[1.7rem] lg:text-[2.2rem] mt-[0.6rem] mb-[0.3rem] md:my-[1rem]'>{title}</p>
+            <div className='flex md:border-t text-[0.9rem] md:text-[1rem] md:border-black/25 md:pt-4'>
                 <span>{genre}</span>
                 <span className='ms-auto'>{year}</span>  
             </div>

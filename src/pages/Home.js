@@ -11,7 +11,7 @@ import Director from '../sections/home/Director';
 
 const Home = () => {
   return (
-    <div className="mt-[7rem] overflow-hidden lg:mt-[13rem] bg-gradient-to-b from-white to-gray-300 bg-opacity-50">
+    <div className="mt-[7rem] overflow-hidden lg:mt-[13rem] md:mt-[10rem] bg-gradient-to-b from-white to-gray-300 bg-opacity-50">
         <Navbar/>
 
         <Hero />
@@ -25,7 +25,7 @@ const Home = () => {
             <p>{ "Best Production - ".repeat(10) }</p></Marquee> 
         
         <Choice />
-        <Marquee className='mb-[3rem] lg:mb-[6rem] md:mb-[4rem] bg-[#101013] text-white/80 py-3'>
+        <Marquee className='mb-[2.2rem] lg:mb-[6rem] md:mb-[4rem] bg-[#101013] text-white/80 py-3'>
             <p>{ "Journey - ".repeat(17) }</p></Marquee> 
         
         <Journey />

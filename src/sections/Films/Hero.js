@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className='px-[5rem] flex items-center bg-news text-white flex  h-[100vh] object-top'>
-        <div className='font-[500]'>
+        <div className='font-[600]'>
         <div className='flex'>
             <div className='bg-sky-500 py-1 px-3 rounded-lg me-3'>PREMIUM</div>
             <div className='bg-red-500 py-1 px-3 rounded-lg'>21+</div>

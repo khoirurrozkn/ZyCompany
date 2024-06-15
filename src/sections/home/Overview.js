@@ -20,7 +20,6 @@ const Overview = () => {
                     we aim to bring inspiration and new opportunities to film enthusiasts 
                     from various backgrounds, while continually collaborating with creative talents.'
                 additionalDesc='text-black/70 lg:text-[20px] lg:mb-[3rem]'
-                colorDrop='#0EA5E9'
             />
             <ButtonHome to={"/about"} additional={"bg-[#0EA5E9] hidden lg:block text-white"}>
                 About us 

@@ -4,8 +4,8 @@ import CardFilms from '../../utils/CardFilms'
 const LatestFilms = () => {
   return (
     <div className='container mx-auto'>
-        <p className='text-[3.5rem] w-[100%] font-[500] tracking-tight leading-[130%]'>
-        Latest <span className='underline font-[500] underline-offset-4 decoration-indigo-500'>Films</span>
+        <p className='text-[3.5rem] w-[100%] font-[600] tracking-tight leading-[130%]'>
+        Latest <span className='underline font-[600] underline-offset-4 decoration-indigo-500'>Films</span>
         </p>
         <p className='mb-[2rem] mt-[0.5rem] w-[60%] text-black/80'>
         Discover new stories that we present each year, and follow our journey 
@@ -23,7 +23,7 @@ const LatestFilms = () => {
             />
             <CardFilms
             img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316342/foto-home-3_r9qhsk.jpg"
-            title="Whispers of the Heart"
+            title="Heart Laughs"
             />
             <CardFilms
             img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316343/foto-home-4_seobza.jpg"

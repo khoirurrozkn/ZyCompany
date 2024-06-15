@@ -12,7 +12,7 @@ const NavbarLink = ({ to, children }) => {
   return (
     <Link
       to={to}
-      className={`nav-link ${getLinkClass(to, currentPath)} text-[1.5rem] text-center lg:text-sm w-full h-[3rem] lg:h-auto transition duration-200 hover:text-white hover:scale-110`}
+      className={`nav-link ${getLinkClass(to, currentPath)} text-[1.5rem] text-center lg:text-sm md:text-sm w-full h-[3rem] lg:h-auto md:h-auto transition duration-200 hover:text-white hover:scale-110`}
     >
       {children}
     </Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
         className={`
           navbar w-full 
           px-[1rem] md:px-[3rem] lg:px-[4rem] xl:px-[5rem] 2xl:px-[6rem] 
-          py-[1rem] fixed left-0 right-0 text-white 
+          py-[1rem] md:py-[2rem] lg:py-[1.4rem] fixed left-0 right-0 text-white 
           flex z-10 transition-all duration-700
           ${openNav && 'top-0'}
           ${isScrolled ? '-top-full' : 'top-0'}
@@ -74,7 +74,7 @@ const Navbar = () => {
         </div>
 
         <div className={`mx-auto text-sm my-auto text-white/60 absolute md:static 
-            bg-[#101013] lg:static ${openNav ?  'top-0 h-[100vh]' : 'hidden'} lg:flex  w-[100vw] left-0 flex flex-wrap 
+            bg-[#101013] lg:static ${openNav ?  'top-0 h-[100vh]' : 'hidden'} lg:flex md:flex w-[100vw] left-0 flex flex-wrap 
             md:flex-nowrap content-center lg:flex-nowrap justify-around lg:w-[50%] 
             md:w-[50%] lg:h-auto md:h-auto font-bold`
           }>
