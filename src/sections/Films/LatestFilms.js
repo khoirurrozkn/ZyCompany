@@ -4,15 +4,15 @@ import CardFilms from '../../utils/CardFilms'
 const LatestFilms = () => {
   return (
     <div className='container mx-auto'>
-        <p className='text-[3.5rem] w-[100%] font-[600] tracking-tight leading-[130%]'>
+        <p className='text-[2rem] md:text-[2.5rem] lg:text-[3.5rem] w-[100%] font-[600] tracking-tight leading-[130%]'>
         Latest <span className='underline font-[600] underline-offset-4 decoration-indigo-500'>Films</span>
         </p>
-        <p className='mb-[2rem] mt-[0.5rem] w-[60%] text-black/80'>
-        Discover new stories that we present each year, and follow our journey 
-        in delivering works that distinguish Zy.Company in the global film industry
+        <p className='mb-[1rem] lg:mb-[2rem] mt-[0.5rem] md:w-[80%] lg:w-[60%] text-black/80'>
+          Discover new stories that we present each year, and follow our journey 
+          in delivering works that distinguish Zy.Company in the global film industry
         </p>
 
-        <div className='flex flex-wrap justify-around'>
+        <div className='flex flex-wrap justify-between md:justify-around'>
             <CardFilms
             img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316334/foto-about-history-2_jijtwd.jpg"
             title="World War III"

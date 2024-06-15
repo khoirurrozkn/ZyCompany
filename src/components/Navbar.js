@@ -60,7 +60,7 @@ const Navbar = () => {
       const currentScrollPos = window.scrollY;
       const isScrollingUp = prevScrollPos > currentScrollPos;
 
-      if (location.pathname === '/films' && currentScrollPos <= 500) {  
+      if (location.pathname.includes('/films') && currentScrollPos <= 500) {  
         setBackground('bg-transparent');
       } else {
         setBackground('bg-[#101013]');
@@ -104,11 +104,11 @@ const Navbar = () => {
           <div className={`bg-white h-[0.1rem] transform transition duration-300 ${openNav ? 'rotate-[-40deg] translate-y-[-5px]' : ''}`}></div>
         </div>
 
-        <div className={`mx-auto text-sm my-auto text-white/60 absolute md:static 
+        <div className={`box-nav mx-auto text-sm my-auto text-white/60 absolute md:static 
             bg-black/90 backdrop-blur md:bg-transparent md:backdrop-blur-none pt-[5rem] md:pt-0 lg:static ${openNav ? 'top-0 h-[100vh]' : 'hidden'} 
             lg:flex md:flex w-[100vw] left-0 flex flex-wrap 
             md:flex-nowrap content-start lg:flex-nowrap justify-around lg:w-[50%] 
-            md:w-[50%] lg:h-auto md:h-auto font-bold overflow-y-auto`}
+            md:w-[50%] lg:h-auto md:h-auto font-bold`}
         >
             <DisplayNav
               id={'nav-home'}
