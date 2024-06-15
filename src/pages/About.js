@@ -13,11 +13,11 @@ const About = () => {
 
       <Hero />
       <Marquee className='mt-[3.5rem] md:mt-[5rem] lg:mt-[6rem] bg-[#101013] text-white/80 py-3'>
-        <p>{ "Vision & Mission - ".repeat(9) }</p></Marquee>
+        <p id='vission-mission'>{ "Vision & Mission - ".repeat(9) }</p></Marquee>
 
       <VisionMission />
       <Marquee className='mb-[3rem] md:mb-[4rem] bg-[#101013] text-white/80 py-3'>
-        <p>{ "Executif leadership - ".repeat(8) }</p></Marquee>
+        <p id='leadership'>{ "Executif leadership - ".repeat(8) }</p></Marquee>
 
       <Executive />
       <Marquee className='mt-[3.5rem] md:mt-[5rem] lg:mt-[6rem] bg-[#101013] text-white/80 py-3'>

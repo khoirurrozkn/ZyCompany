@@ -17,21 +17,21 @@ const Home = () => {
         <Hero />
         <div className='origin-center rotate-[4deg] md:rotate-[0] lg:rotate-[0] w-[110vw] relative left-[-5%]'>
             <Marquee className='mt-[3.5rem] md:mt-[2rem] mb-[2rem] md:mb-[3rem] lg:mb-[5rem] bg-[#101013] text-white/80 py-3'>
-                <p>{ "Overview - ".repeat(17) }</p></Marquee>
+                <p id='overview'>{ "Overview - ".repeat(17) }</p></Marquee>
         </div>
         
         <Overview />
         <Marquee className='mt-[3.5rem] md:mt-[4.5rem] lg:mt-[7rem] bg-[#101013] text-white/80 py-3'>
-            <p>{ "Best Production - ".repeat(10) }</p></Marquee> 
+            <p id='best-production'>{ "Best Production - ".repeat(10) }</p></Marquee> 
         
         <Choice />
         <Marquee className='mb-[2.2rem] lg:mb-[6rem] md:mb-[4rem] bg-[#101013] text-white/80 py-3'>
-            <p>{ "Journey - ".repeat(17) }</p></Marquee> 
+            <p id='journey'>{ "Journey - ".repeat(17) }</p></Marquee> 
         
         <Journey />
         <div className='origin-center rotate-[-4deg] lg:rotate-[0] md:rotate-[0] w-[110vw] relative left-[-5%]'>
             <Marquee className='mt-[3.5rem] mb-[3.5rem] lg:mt-[6rem] lg:mb-[5rem] bg-[#101013] text-white/80 py-3'>
-                <p>{ "Quotes - ".repeat(17) }</p></Marquee>
+                <p id='famous-directors'>{ "Quotes - ".repeat(17) }</p></Marquee>
         </div>
 
         <Director />

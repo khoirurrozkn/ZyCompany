@@ -16,7 +16,14 @@ function App() {
         <Route exact path='/' element={ <Suspense fallback={<Loading />}> <Home /> </Suspense> }></Route>
         <Route exact path='/about' element={ <Suspense fallback={<Loading />}> <About /> </Suspense> }></Route>
         <Route exact path='/films' element={ <Suspense fallback={<Loading />}> <Films /> </Suspense> }></Route>
-        <Route exact path='/faq' element={ <Suspense fallback={<Loading />}> <Faq /> </Suspense> }></Route>
+        <Route exact path='/faqs' element={ <Suspense fallback={<Loading />}> <Faq /> </Suspense> }></Route>
+
+        <Route path='*' element={
+          <div className='flex overflow-hidden justify-center h-[100vh] items-center'>
+            404
+          </div>
+        }></Route>
+
       </Routes>
     </BrowserRouter>
   );

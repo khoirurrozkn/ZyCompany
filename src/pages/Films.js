@@ -11,7 +11,7 @@ const Films = () => {
 
         <Hero />
         <Marquee className='bg-[#101013] mb-[5rem] text-white/80 py-3'>
-          <p>{ "Latest films - ".repeat(13) }</p></Marquee>
+          <p id='latest-films'>{ "Latest films - ".repeat(13) }</p></Marquee>
 
         <LatestFilms />
         <Marquee className='mt-[6rem] bg-[#101013] text-white/80 py-3'>
