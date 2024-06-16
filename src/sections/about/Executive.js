@@ -19,37 +19,36 @@ const Executive = () => {
         <div className='flex flex-wrap justify-evenly md:mt-[1rem] lg:mt-[2rem]'>
             <DirectorCardHome
                 additionalImg="object-top"
-                photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316326/foto-about-1_rww8vw.jpg'
+                photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523513/foto-about-1_zdwj7i.webp'
                 name="Alexander Muller"
                 quot="Chief Executive Officer"
             /> 
             <DirectorCardHome
-                additionalImg="object-top"
-                photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316327/foto-about-2_xkbipd.jpg'
+                photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523513/foto-about-2_xkbipd-ezgif.com-jpg-to-webp-converter_s0jg09.webp'
                 name="Henrik Olsen"
                 quot="Chief Commercial Officer"
             />
             <DirectorCardHome
                 additionalImg="object-top"
-                photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316326/foto-about-3_tgy2i2.jpg'
+                photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523512/foto-about-3_tgy2i2-ezgif.com-jpg-to-webp-converter_xpumuw.webp'
                 name="Lucas Schmidt"
                 quot="Chief Financial Officer"
             />
             <DirectorCardHome
                 additionalImg="object-top"
-                photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316326/foto-about-4_hepsxd.jpg'
+                photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523512/foto-about-4_hepsxd-ezgif.com-jpg-to-webp-converter_enkorg.webp'
                 name="Jan Novak"
                 quot="Chief Operating Officer"
             />
             <DirectorCardHome
                 additionalImg="object-top"
-                photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316327/foto-about-5_gum5lg.jpg'
+                photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523512/foto-about-5_gum5lg-ezgif.com-jpg-to-webp-converter_u18zov.webp'
                 name="Viktor Petrov"
                 quot="Chief Technology Officer"
             />
             <DirectorCardHome
                 additionalImg="object-top"
-                photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316327/foto-about-6_e4pqz7.jpg'
+                photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523512/foto-about-6_e4pqz7-ezgif.com-jpg-to-webp-converter_gmdt9v.webp'
                 name="Sophie Dupont"
                 quot="Chief Marketing Officer"
             />

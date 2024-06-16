@@ -8,6 +8,7 @@ function App() {
   const About = lazy(() => import("./pages/About"))
   const Films = lazy(() => import("./pages/Films"))
   const Faq = lazy(() => import("./pages/Faq"))
+  const Detail = lazy(() => import("./pages/Detail"))
 
   return (
     <BrowserRouter>
@@ -17,6 +18,7 @@ function App() {
         <Route exact path='/about' element={ <Suspense fallback={<Loading />}> <About /> </Suspense> }></Route>
         <Route exact path='/films' element={ <Suspense fallback={<Loading />}> <Films /> </Suspense> }></Route>
         <Route exact path='/faqs' element={ <Suspense fallback={<Loading />}> <Faq /> </Suspense> }></Route>
+        <Route exact path='/detail' element={ <Suspense fallback={<Loading />}> <Detail /> </Suspense> }></Route>
 
         <Route path='*' element={
           <div className='flex overflow-hidden justify-center h-[100vh] items-center'>

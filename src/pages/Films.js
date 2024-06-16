@@ -10,7 +10,7 @@ const Films = () => {
         <Navbar />
 
         <Hero />
-        <Marquee className='bg-[#101013] mb-[3rem] md:mt-[5rem] lg:mb-[5rem] text-white/80 py-3'>
+        <Marquee className='bg-[#101013] mb-[3rem] lg:mb-[5rem] text-white/80 py-3'>
           <p id='latest-films'>{ "Latest films - ".repeat(13) }</p></Marquee>
 
         <LatestFilms />

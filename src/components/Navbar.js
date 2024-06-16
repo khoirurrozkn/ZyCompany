@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
-const NavbarLink = ({ to, additional, isNavTitle, children }) => {
+const NavbarLink = ({ to, additional, isNavTitle, children, closeNav }) => {
   const location = useLocation();
   const currentPath = location.pathname + location.hash;
 
@@ -18,6 +18,7 @@ const NavbarLink = ({ to, additional, isNavTitle, children }) => {
     <HashLink
       to={to}
       smooth
+      onClick={closeNav}
       className={`nav-link ${isSameUrl() && isNavTitle ? 'text-white font-[500] scale-110 ms-[1rem] md:ms-0' : ''} ${additional} my-[1rem] md:my-auto lg:text-sm md:text-sm w-full lg:h-auto md:h-auto transition duration-200 hover:text-white hover:scale-110`}
     >
       {children}
@@ -35,10 +36,10 @@ const handleMouseLeave = (id) => {
   element.classList.remove('lg:block')
 }
 
-const DisplayNav = ({id, toUrl, toName, children}) => {
+const DisplayNav = ({id, toUrl, toName, children, closeNav }) => {
   return (
     <div className='relative w-full ps-[2rem] md:p-0 lg:w-auto' onMouseEnter={() => handleMouseEnter(id)} onMouseLeave={() => handleMouseLeave(id)}>
-      <NavbarLink isNavTitle={true} additional='block text-[1.2rem]' to={toUrl}>{toName}</NavbarLink>
+      <NavbarLink isNavTitle={true} additional='block text-[1.2rem]' to={toUrl} closeNav={closeNav}>{toName}</NavbarLink>
       <div id={id} className='md:hidden w-full lg:w-[200px] lg:absolute lg:pt-[0.5rem] bot-0'>
         <div className='lg:bg-black/90 lg:backdrop-blur rounded-lg lg:border border-gray-500 ms-4 lg:ms-auto lg:p-4 lg:ps-5 lg:pb-[1.5rem] lg:shadow-lg'>
           {children}
@@ -82,6 +83,10 @@ const Navbar = () => {
     };
   }, [prevScrollPos, location.pathname]);
 
+  const closeNav = () => {
+    setOpenNav(false);
+  };
+
   const subNavClass = 'block lg:mt-[0.5rem] text-[1rem]'
   return (
       <div
@@ -105,7 +110,7 @@ const Navbar = () => {
         </div>
 
         <div className={`box-nav mx-auto text-sm my-auto text-white/60 absolute md:static 
-            bg-black/90 backdrop-blur md:bg-transparent md:backdrop-blur-none pt-[5rem] md:pt-0 lg:static ${openNav ? 'top-0 h-[100vh]' : 'hidden'} 
+            bg-black/90 backdrop-blur md:bg-transparent transition-all duration-300 md:backdrop-blur-none pt-[5rem] md:pt-0 lg:static ${openNav ? 'top-0 h-[100vh]' : 'hidden'} 
             lg:flex md:flex w-[100vw] left-0 flex flex-wrap 
             md:flex-nowrap content-start lg:flex-nowrap justify-around lg:w-[50%] 
             md:w-[50%] lg:h-auto md:h-auto font-bold`}
@@ -114,32 +119,35 @@ const Navbar = () => {
               id={'nav-home'}
               toUrl={'/'}
               toName={'Home'}
+              closeNav={closeNav}
             >
-              <NavbarLink additional={subNavClass} to="/#overview">Overview</NavbarLink>
-              <NavbarLink additional={subNavClass} to="/#best-production">Best production</NavbarLink>
-              <NavbarLink additional={subNavClass} to="/#journey">Journey</NavbarLink>
-              <NavbarLink additional={subNavClass} to="/#famous-directors">Famous Directors</NavbarLink>
+              <NavbarLink additional={subNavClass} to="/#overview" closeNav={closeNav}>Overview</NavbarLink>
+              <NavbarLink additional={subNavClass} to="/#best-production" closeNav={closeNav}>Best production</NavbarLink>
+              <NavbarLink additional={subNavClass} to="/#journey" closeNav={closeNav}>Journey</NavbarLink>
+              <NavbarLink additional={subNavClass} to="/#famous-directors" closeNav={closeNav}>Famous Directors</NavbarLink>
             </DisplayNav>
 
             <DisplayNav
               id={'nav-about'}
               toUrl={'/about'}
               toName={'About'}
+              closeNav={closeNav}
             >
-              <NavbarLink additional={subNavClass} to="/about/#vission-mission">Vission & Mission</NavbarLink>
-              <NavbarLink additional={subNavClass} to="/about/#leadership">Leadership</NavbarLink>
+              <NavbarLink additional={subNavClass} to="/about/#vission-mission" closeNav={closeNav}>Vission & Mission</NavbarLink>
+              <NavbarLink additional={subNavClass} to="/about/#leadership" closeNav={closeNav}>Leadership</NavbarLink>
             </DisplayNav>
 
             <DisplayNav
               id={'nav-films'}
               toUrl={'/films'}
               toName={'Films'}
+              closeNav={closeNav}
             >
-              <NavbarLink additional={subNavClass} to="/films/#latest-films">Latest films</NavbarLink>
+              <NavbarLink additional={subNavClass} to="/films/#latest-films" closeNav={closeNav}>Latest films</NavbarLink>
             </DisplayNav>
 
             <div className='w-full ms-[2rem] md:w-auto md:ms-0'>
-              <NavbarLink additional='block text-[1.2rem]' to="/faqs">FAQs</NavbarLink> 
+              <NavbarLink additional='block text-[1.2rem]' to="/faqs" closeNav={closeNav}>FAQs</NavbarLink> 
             </div>
 
         </div>

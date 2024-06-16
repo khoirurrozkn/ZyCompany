@@ -18,19 +18,19 @@
 } 
 
 .bg-choice{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316342/foto-home-1_obwu2r.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523808/foto-home-1_obwu2r-ezgif.com-jpg-to-webp-converter_ortona.webp');
   background-position: center;
   background-size: cover;
 }
 
 .bg-vision-mission{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316328/foto-about-7_dkkl2u.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523511/foto-about-7_dkkl2u-ezgif.com-jpg-to-webp-converter_wtozfj.webp');
   background-position: center;
   background-size: cover;
 }
 
 .bg-news{
-  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 8)), url('https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316334/foto-about-history-2_jijtwd.jpg');
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 8)), url('https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523510/foto-about-history-2_jijtwd-ezgif.com-jpg-to-webp-converter_wvbacv.webp');
   background-size: cover;
 }
 
@@ -49,6 +49,10 @@
 @media only screen and (max-width: 767px){
   .container{
     padding: 0 1rem !important;
+  }
+
+  .bg-choice{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://res.cloudinary.com/dobjgx7ps/image/upload/v1718525137/foto-home-1_obwu2r-ezgif.com-jpg-to-webp-converter_HP_xqybdp.webp') !important;
   }
 
   .desc-button::before,

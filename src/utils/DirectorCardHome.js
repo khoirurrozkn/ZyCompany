@@ -2,7 +2,7 @@ import React from 'react'
 import DescDropdown from './DescDropdown'
 
 const DirectorCardHome = ({
-    photo, name, quot, withIg, colorDrop, 
+    photo, name, quot, withIg, 
     additionalParent, additionalImg, withDropDown
     }) => {
 
@@ -11,7 +11,7 @@ const DirectorCardHome = ({
             <img alt='dummy director'
                 src={photo}
                 className={`object-cover aspect-square shadow-lg brightness-90 ${additionalImg}`}
-            ></img>
+            />
             <p className='text-[1rem] md:text-[1.5rem] font-[500] mt-[1rem]'>{name}</p>
             {!withDropDown ? 
                 <p className='text-[0.8rem] md:text-[1rem]'>{quot}</p>

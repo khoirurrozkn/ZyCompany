@@ -23,32 +23,32 @@ const Journey = () => {
         </div>
 
         <ShowFilmHome
-            logo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316342/foto-home-3_r9qhsk.jpg'
+            logo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523511/foto-home-3_r9qhsk-ezgif.com-jpg-to-webp-converter_nvxzgl.webp'
             title={"Heart Laughs"}
             genre={"Romance, Comedy"}
             year={"2023"}
             additional='me-[3%] md:me-0'
         />
         <ShowFilmHome
-            logo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316343/foto-home-4_seobza.jpg'
+            logo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523511/foto-home-4_seobza-ezgif.com-jpg-to-webp-converter_acbqs8.webp'
             title={"Love in Bloom"}
             genre={"Romance, Action"}
             year={"2023"}
         />
         <ShowFilmHome
-            logo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316344/foto-home-5_g91ffq.jpg'
+            logo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523510/foto-home-5_g91ffq-ezgif.com-jpg-to-webp-converter_yyhoev.webp'
             title={"The Pocong"}
             genre={"Horror, Thriller"}
             additional='me-[3%] md:me-0'
             year={"2023"}
         />
         <ShowFilmHome
-            logo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316344/foto-home-6_vry8xw.jpg'
+            logo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523510/foto-home-6_vry8xw-ezgif.com-jpg-to-webp-converter_qjwfjs.webp'
             title={"The Last Human"}
             genre={"Action, Thriller"}
             year={"2024"}
         />
-        <ButtonHome to={"/about"} additional={"mt-[2rem] lg:mt-[4rem] bg-[#6366F1] text-white"}>
+        <ButtonHome to={"/films/#latest-films"} additional={"mt-[2rem] lg:mt-[4rem] bg-[#6366F1] text-white"}>
             View More 
         </ButtonHome>
     </div>

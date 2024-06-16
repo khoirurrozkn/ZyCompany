@@ -25,7 +25,8 @@ const Hero = () => {
                 </div>
             </div>
 
-            <img src='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316342/foto-home-1_obwu2r.jpg'
+            <img 
+                src='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523808/foto-home-1_obwu2r-ezgif.com-jpg-to-webp-converter_ortona.webp'
                 alt='By Jakob Owens unsplash'
                 className='container mx-auto lg:h-[70vh] object-cover mt-[2rem] brightness-[80%]'>
             </img>

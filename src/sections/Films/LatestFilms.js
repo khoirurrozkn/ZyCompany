@@ -14,51 +14,51 @@ const LatestFilms = () => {
 
         <div className='flex flex-wrap justify-between md:justify-around'>
             <CardFilms
-            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316334/foto-about-history-2_jijtwd.jpg"
+            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523510/foto-about-history-2_jijtwd-ezgif.com-jpg-to-webp-converter_wvbacv.webp"
             title="World War III"
             />
             <CardFilms
-            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316344/foto-home-5_g91ffq.jpg"
+            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523510/foto-home-5_g91ffq-ezgif.com-jpg-to-webp-converter_yyhoev.webp"
             title="The Pocong"
             />
             <CardFilms
-            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316342/foto-home-3_r9qhsk.jpg"
+            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523511/foto-home-3_r9qhsk-ezgif.com-jpg-to-webp-converter_nvxzgl.webp"
             title="Heart Laughs"
             />
             <CardFilms
-            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316343/foto-home-4_seobza.jpg"
+            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523511/foto-home-4_seobza-ezgif.com-jpg-to-webp-converter_acbqs8.webp"
             title="Love in Bloom"
             />
             <CardFilms
-            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316344/foto-home-6_vry8xw.jpg"
+            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523510/foto-home-6_vry8xw-ezgif.com-jpg-to-webp-converter_qjwfjs.webp"
             title="The Last Human"
             />
             <CardFilms
-            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316334/foto-about-history-1_chuvyw.jpg"
+            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523510/foto-about-history-1_chuvyw-ezgif.com-jpg-to-webp-converter_hj2ncr.webp"
             title="The Ghost"
             />
             <CardFilms
-            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718318754/foto-films-10_h8xlwk.jpg"
+            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523513/foto-films-10_h8xlwk-ezgif.com-jpg-to-webp-converter_gfcilq.webp"
             title="Toilet"
             />
             <CardFilms
-            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718318755/foto-films-11_mb6dyh.jpg"
-            title="Programmer"
+            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523513/foto-films-11_mb6dyh-ezgif.com-jpg-to-webp-converter_wwprmr.webp"
+            title="Hacker"
             />
             <CardFilms
-            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718318755/foto-films-13_kkv5vp.jpg"
+            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523513/foto-films-13_kkv5vp-ezgif.com-jpg-to-webp-converter_xasphi.webp"
             title="Crazy clown"
             />
             <CardFilms
-            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718318755/foto-films-12_xddjrp.jpg"
+            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523513/foto-films-12_xddjrp-ezgif.com-jpg-to-webp-converter_egvyja.webp"
             title="Lucky man"
             />
             <CardFilms
-            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718318756/foto-films-14_c9ozde.jpg"
+            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523513/foto-films-14_c9ozde-ezgif.com-jpg-to-webp-converter_ppj2kx.webp"
             title="Lost in the mountain"
             />
             <CardFilms
-            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718318753/foto-films-15_kxj79l.jpg"
+            img="https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523512/foto-films-15_kxj79l-ezgif.com-jpg-to-webp-converter_tirzca.webp"
             title="Scp 5433"
             />
         </div>

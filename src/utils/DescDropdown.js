@@ -20,7 +20,7 @@ const DescDropdown = ({desc, withIg, additionalParent, additionalDesc, one}) => 
         {one && 
           <div className='flex justify-center mt-1'>
             <p className='py-1 shadow-lg px-3 rounded-[20px] font-[500] bg-sky-500 text-white text-center relative mt-1 md:hidden lg:hidden'>
-                {isOpen ? 'Tap the desc for more details' : 'Tap again to close the description.'}
+                {isOpen ? 'Tap all description for details.' : 'Tap again to close description.'}
                 <FontAwesomeIcon className={`arrow-down ms-1 text-[#DCBF99]`} icon={faHandPointUp}/>
             </p>
           </div>

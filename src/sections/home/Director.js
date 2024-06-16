@@ -10,7 +10,7 @@ const Director = () => {
         </p>
 
         <DirectorCardHome
-            photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316345/foto-home-7_a2zojk.jpg'
+            photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523510/foto-home-7_a2zojk-ezgif.com-jpg-to-webp-converter_sh9xne.webp'
             withIg={true}
             withDropDown={true}
             additionalParent='me-[1rem] md:me-0'
@@ -18,14 +18,14 @@ const Director = () => {
             quot={"Collaborating with Zy.company was incredible. Their dedication to innovation and support for creative visions make them a remarkable partner."}
         /> 
         <DirectorCardHome
-            photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316350/foto-home-8_fjqv0s.jpg'
+            photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523511/foto-home-8_fjqv0s-ezgif.com-jpg-to-webp-converter_ji2xwb.webp'
             withIg={true}
             withDropDown={true}
             name={"Christopher Nolan"}
             quot={"Working with Zy.company has been a journey of creative exploration. Their commitment to advancing film technology and storytelling is truly inspiring."}
         /> 
         <DirectorCardHome
-            photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718316351/foto-home-9_pebxmi.jpg'
+            photo='https://res.cloudinary.com/dobjgx7ps/image/upload/v1718523511/foto-home-9_pebxmi-ezgif.com-jpg-to-webp-converter_dv7n94.webp'
             withIg={true}
             withDropDown={true}
             name={"Kathryn Bigelow"}
